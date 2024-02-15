@@ -96,6 +96,38 @@ main .hero {
     margin-top: 35px;
 }
 
+/* strategic */
+.strategic {
+    background-color: #9792E4;
+}
+
+main .strategic {
+    min-width: 150px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.strategic h2, p {
+    color: white;
+}
+
+.strategic .btn-viola img {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.btn-viola {
+    background-color: #9792E4;
+    height: 40px;
+    width: 40px;
+}
+
+.col-white {
+    background-color: white;
+    border-radius: 20px;
+}
+
 /* UTILITIES */
 header {
     margin-bottom: 50px;
@@ -159,7 +191,7 @@ main .row {
 /* MEDIAQUERY */
 @media (min-width: 370px) {
     main .hero {
-        max-width: 1200px;
+        max-width: 1150px;
     }
 }
 
@@ -181,6 +213,11 @@ main .row {
 
     .col-hamburgher {
         display: none;
+    }
+
+    main .hero {
+        min-width: 150px;
+        margin: 0 auto;
     }
 }
 
