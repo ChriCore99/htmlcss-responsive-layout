@@ -19,12 +19,73 @@ a {
 }
 
 /* LAYOUT */
+/* header */
+header .container {
+    background-color: #0084FD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
+.logo img {
+    height: 40px;
+    padding-left: 30px 
+}
+
+header ul {
+    display: flex;
+    gap: 25px;
+    line-height: 40px;
+    color: white;
+}
+
+.col-hamburgher img {
+    height: 30px;
+    filter: invert(1);
+}
+
+.btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
 
 /* UTILITIES */
+header .row {
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    width: auto;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+header .col {
+    padding-right: 30px;
+}
+
+.col-option {
+    display: none;
+}
 
 
 /* MEDIAQUERY */
+@media (min-width: 1200px) {
+    .col-option {
+        display: block;
+    }
+
+    .col-hamburgher {
+        display: none;
+    }
+}
 
 
 /* DEBUG */
