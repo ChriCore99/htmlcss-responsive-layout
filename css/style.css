@@ -49,9 +49,38 @@ header ul {
     border-radius: 20px;
 }
 
+/* main */
+/* hero */
+main .hero {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.hero .card img {
+    height: 75px;
+    color: #0084FD;
+    margin-bottom: 30px;
+}
+
+.hero .col {
+    width: 100%;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.hero .card {
+    text-align: center;
+}
+
 /* UTILITIES */
+header {
+    margin-bottom: 50px;
+}
+
 header .row {
     justify-content: space-between;
+    align-items: center;
 }
 
 .row {
@@ -73,6 +102,20 @@ header .col {
 
 .col-option {
     display: none;
+}
+
+main .row {
+    flex-wrap: wrap;
+}
+
+.hero .card h3 {
+    color: #0084FD;
+    margin-bottom: 35px;
+}
+
+.hero .card p {
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 
