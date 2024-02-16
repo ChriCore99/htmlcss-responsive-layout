@@ -74,6 +74,11 @@ header ul {
     flex-wrap: wrap;
 }
 
+.card-baby {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .hero .card .card-text img {
     height: 15px;
     filter: invert(1);
@@ -129,6 +134,53 @@ header ul {
 .col-white {
     background-color: white;
     border-radius: 20px;
+}
+
+/* partners */
+.partners .container > * {
+    text-align: center;
+    gap: 20px;
+}
+
+.partners h2 {
+    color: #9792E4;
+}
+
+.partners .card-part {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #9792E4;
+    border-radius: 20px;
+}
+
+.partners .col {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.foto-sponsor {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position-x: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.sp-1 {
+    background-image: url(../img/testimonial1.jpg);
+}
+
+.sp-2 {
+    background-image: url(../img/testimonial2.jpg);
+}
+
+.sp-3 {
+    background-image: url(../img/testimonial3.jpg);
 }
 
 /* UTILITIES */
@@ -195,6 +247,18 @@ main .row {
     margin-bottom: 35px;
 }
 
+.col-complete img {
+    padding-bottom: 70px;
+}
+
+.col-complete h2 {
+    padding-bottom: 45px;
+}
+
+.col-complete p {
+    padding-bottom: 20px;
+}
+
 .card-img {
     text-align: center;
 }
@@ -234,6 +298,21 @@ main .row {
 
     .strategic .row > * {
         max-width: 50%;
+    }
+
+    .partners .card-part {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .foto-sponsor {
+        margin-left: 30px;
+    }
+
+    .text-sponsor {
+        align-self: center;
+        text-align: start;
+        margin-left: 30px;
     }
 }
 
