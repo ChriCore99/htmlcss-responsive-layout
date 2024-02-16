@@ -183,6 +183,48 @@ header ul {
     background-image: url(../img/testimonial3.jpg);
 }
 
+/* benefits */
+.benefits {
+    background-color: #9792E4;
+    margin-top: 30px;
+}
+
+.benefits .card {
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.benefits .col {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 0 12px;
+}
+
+.benefits .card-ben .btn-viola {
+    background-color: #9792E4;
+    width: fit-content;
+    margin: 0 auto;
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+}
+
+.card-ben .numero {
+    color: #9792E4;
+    font-size: 35px;
+}
+
+.card-ben h3 {
+    color: #9792E4;
+}
+
+/* about us */
+
+
 /* UTILITIES */
 header {
     margin-bottom: 50px;
