@@ -238,6 +238,25 @@ header ul {
     background-image: url(../img/about.jpg);
 }
 
+.about-us .btn img {
+    height: 15px;
+    filter: invert(1);
+}
+
+.about-us .col h3 {
+    color: #9792E4;
+}
+
+.about-us .btn-viola {
+    background-color: #9792E4;
+    width: fit-content;
+    margin: 0 auto;
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+}
+
 
 /* UTILITIES */
 header {
@@ -373,6 +392,14 @@ main .row {
 
     .benefits .col {
         width: 50%;
+    }
+
+    .about-us .AU {
+        width: calc(8 * 100% / 12);
+    }
+
+    .about-us .DIR {
+        width: calc(4 * 100% / 12);
     }
 }
 
