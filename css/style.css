@@ -223,6 +223,20 @@ header ul {
 }
 
 /* about us */
+.about-us h2 {
+    color: #9792E4;
+    font-size: 35px;
+}
+
+.about-us .col {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 0 12px;
+}
+
+.director {
+    background-image: url(../img/about.jpg);
+}
 
 
 /* UTILITIES */
